@@ -19,7 +19,16 @@ class animal{
     animal(string n,int a,bool ishug);
     
     ~animal();
-
+void setname(string n){
+    name=n;
+}
+void setage(int n){
+age=n;
+}
+string getname(){
+return name;}
+string getage(){
+    return age;}
     void display();
     void feed();    };
 
