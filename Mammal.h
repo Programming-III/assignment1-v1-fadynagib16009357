@@ -5,6 +5,14 @@
 
 //define mammal class here
 
+class Mammal : public Animal{
+    private :
+string furcolor;
+
+Mammal();
+Mammal(string fc){
+furcolor = fc;
+}};
 
 
 
