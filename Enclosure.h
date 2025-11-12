@@ -21,6 +21,14 @@ class enclosure{
     ~enclosure();
     void addAnimal(Animal* a);
     void displayAnimals();
+    void setcapacity(int n){
+    capacity = n;}
+     void setcurrentcount(int n){
+    currentCount = n;}
+    int getcapacity(){
+        return capacity}
+    int getcurrentcount(){
+        return currentcount;}
 };
 
 
